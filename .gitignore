@@ -1,0 +1,34 @@
+# Dependencies and caches
+node_modules/
+.npm/
+.cache/
+.parcel-cache/
+.turbo/
+.next/
+__pycache__/
+*.pyc
+.Python
+
+# Pack output and local work/cache (keep build scripts)
+build/dist/
+build/qa/
+build/work/
+build/pixel/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+gcm-diagnose.log
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+
+# Backups (also live outside this folder; never commit them)
+ai-girl-fighter-backup-*/
